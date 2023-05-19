@@ -6,10 +6,25 @@
 
 /* adjusting fonts */
 
+@font-face {
+	font-family: "FT88-Italic";
+	src: url("font/FT88-Italic.woff2") format("woff2-variations"),
+	     url("font/FT88-Italic.woff") format("woff-variations");
+}
+@font-face {
+	font-family: "FT88-Serif";
+	src: url("font/FT88-Serif.woff2") format("woff2-variations"),
+	     url("font/FT88-Serif.woff") format("woff-variations");
+}
+@font-face {
+	font-family: "FT88-School";
+	src: url("font/FT88-School.woff2") format("woff2-variations"),
+	     url("font/FT88-School.woff") format("woff-variations");
+}
+
 body {
-	background-color: lightskyblue;
+	background-color: lightpink;
 	color: white;
-	font-family: Roman;
 	transition: background 500ms ease;
 }
 
@@ -24,22 +39,45 @@ p, li {
 	padding: 20px;
 }
 
-h1, h2 {
+#image {
+	width: 200px;
+	padding: 10px;
+}
+
+.darkmode{
+	background-color: black;
+	color: lightpink;
+}
+
+h1 {
+	color: deeppink;
+	margin-top: 20px;
+	margin-bottom:  10px;
+	font-family: FT88-School;
+}
+
+h2 {
 	color: deeppink;
 	margin-bottom:  20px;
+	font-family: FT88-School;
 }
 
 p {
-	margin-bottom:  20px;
+	margin-bottom:  10px;
+	font-family: FT88-Italic;
 }
 
 h3 {
 	color: deeppink;
+	margin-top: 20px;
 	margin-bottom:  10px;
+	font-size: 25px;
+	font-family: FT88-School;
 }
 
 ul, ol {
-	margin-left: 20px;
+	margin-left: 10px;
+	font-family: FT88-Serif;
 }
 
 img {

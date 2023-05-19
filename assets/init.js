@@ -18,9 +18,10 @@ $(document).ready(function() {
     inside the curly brackets.
     */
 
-    $('body').click(function(){
-        $(this).css('background', 'yellow');
-    })
+    $(document).ready(function(){
+        $('.button').click(function() { 
+            $('body').toggleClass("darkmode");});
+});
 
     /* random background color from an array */
 
