@@ -46,7 +46,7 @@ p, li {
 
 .darkmode{
 	background-color: black;
-	color: lightpink;
+	color: lightskyblue;
 }
 
 h1 {
@@ -65,6 +65,7 @@ h2 {
 p {
 	margin-bottom:  10px;
 	font-family: FT88-Italic;
+	color: deeppink;
 }
 
 h3 {
